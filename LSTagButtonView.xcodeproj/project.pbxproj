@@ -1,0 +1,607 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		026C32F91D61DA6000BA2DFA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 026C32F81D61DA6000BA2DFA /* main.m */; };
+		026C32FC1D61DA6000BA2DFA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 026C32FB1D61DA6000BA2DFA /* AppDelegate.m */; };
+		026C32FF1D61DA6000BA2DFA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 026C32FE1D61DA6000BA2DFA /* ViewController.m */; };
+		026C33021D61DA6000BA2DFA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 026C33001D61DA6000BA2DFA /* Main.storyboard */; };
+		026C33041D61DA6000BA2DFA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 026C33031D61DA6000BA2DFA /* Assets.xcassets */; };
+		026C33071D61DA6000BA2DFA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 026C33051D61DA6000BA2DFA /* LaunchScreen.storyboard */; };
+		026C33121D61DA6000BA2DFA /* LSTagButtonViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 026C33111D61DA6000BA2DFA /* LSTagButtonViewTests.m */; };
+		026C331D1D61DA6000BA2DFA /* LSTagButtonViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 026C331C1D61DA6000BA2DFA /* LSTagButtonViewUITests.m */; };
+		026C332C1D61DD8400BA2DFA /* DXMTagLabelView.m in Sources */ = {isa = PBXBuildFile; fileRef = 026C332B1D61DD8400BA2DFA /* DXMTagLabelView.m */; };
+		E312369E201E890E8B4BA77C /* libPods-LSTagButtonView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 96B3ED848292B40A2F6A3C5F /* libPods-LSTagButtonView.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		026C330E1D61DA6000BA2DFA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 026C32EC1D61DA6000BA2DFA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 026C32F31D61DA6000BA2DFA;
+			remoteInfo = LSTagButtonView;
+		};
+		026C33191D61DA6000BA2DFA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 026C32EC1D61DA6000BA2DFA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 026C32F31D61DA6000BA2DFA;
+			remoteInfo = LSTagButtonView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		026C32F41D61DA6000BA2DFA /* LSTagButtonView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LSTagButtonView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		026C32F81D61DA6000BA2DFA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		026C32FA1D61DA6000BA2DFA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		026C32FB1D61DA6000BA2DFA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		026C32FD1D61DA6000BA2DFA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		026C32FE1D61DA6000BA2DFA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		026C33011D61DA6000BA2DFA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		026C33031D61DA6000BA2DFA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		026C33061D61DA6000BA2DFA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		026C33081D61DA6000BA2DFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		026C330D1D61DA6000BA2DFA /* LSTagButtonViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LSTagButtonViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		026C33111D61DA6000BA2DFA /* LSTagButtonViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LSTagButtonViewTests.m; sourceTree = "<group>"; };
+		026C33131D61DA6000BA2DFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		026C33181D61DA6000BA2DFA /* LSTagButtonViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LSTagButtonViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		026C331C1D61DA6000BA2DFA /* LSTagButtonViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LSTagButtonViewUITests.m; sourceTree = "<group>"; };
+		026C331E1D61DA6000BA2DFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		026C332A1D61DD8400BA2DFA /* DXMTagLabelView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DXMTagLabelView.h; sourceTree = "<group>"; };
+		026C332B1D61DD8400BA2DFA /* DXMTagLabelView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DXMTagLabelView.m; sourceTree = "<group>"; };
+		68033AF062BA1CF695440A1E /* Pods-LSTagButtonView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LSTagButtonView.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LSTagButtonView/Pods-LSTagButtonView.debug.xcconfig"; sourceTree = "<group>"; };
+		96B3ED848292B40A2F6A3C5F /* libPods-LSTagButtonView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LSTagButtonView.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F574713BDC32ADD5801ADED5 /* Pods-LSTagButtonView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LSTagButtonView.release.xcconfig"; path = "Pods/Target Support Files/Pods-LSTagButtonView/Pods-LSTagButtonView.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		026C32F11D61DA6000BA2DFA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E312369E201E890E8B4BA77C /* libPods-LSTagButtonView.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		026C330A1D61DA6000BA2DFA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		026C33151D61DA6000BA2DFA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		026C32EB1D61DA6000BA2DFA = {
+			isa = PBXGroup;
+			children = (
+				026C32F61D61DA6000BA2DFA /* LSTagButtonView */,
+				026C33101D61DA6000BA2DFA /* LSTagButtonViewTests */,
+				026C331B1D61DA6000BA2DFA /* LSTagButtonViewUITests */,
+				026C32F51D61DA6000BA2DFA /* Products */,
+				66AB0CE9899B273B95BFA4F5 /* Pods */,
+				4F2E204E2C6F268C1CE037A4 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		026C32F51D61DA6000BA2DFA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				026C32F41D61DA6000BA2DFA /* LSTagButtonView.app */,
+				026C330D1D61DA6000BA2DFA /* LSTagButtonViewTests.xctest */,
+				026C33181D61DA6000BA2DFA /* LSTagButtonViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		026C32F61D61DA6000BA2DFA /* LSTagButtonView */ = {
+			isa = PBXGroup;
+			children = (
+				026C32FA1D61DA6000BA2DFA /* AppDelegate.h */,
+				026C32FB1D61DA6000BA2DFA /* AppDelegate.m */,
+				026C32FD1D61DA6000BA2DFA /* ViewController.h */,
+				026C32FE1D61DA6000BA2DFA /* ViewController.m */,
+				026C332A1D61DD8400BA2DFA /* DXMTagLabelView.h */,
+				026C332B1D61DD8400BA2DFA /* DXMTagLabelView.m */,
+				026C33001D61DA6000BA2DFA /* Main.storyboard */,
+				026C33031D61DA6000BA2DFA /* Assets.xcassets */,
+				026C33051D61DA6000BA2DFA /* LaunchScreen.storyboard */,
+				026C33081D61DA6000BA2DFA /* Info.plist */,
+				026C32F71D61DA6000BA2DFA /* Supporting Files */,
+			);
+			path = LSTagButtonView;
+			sourceTree = "<group>";
+		};
+		026C32F71D61DA6000BA2DFA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				026C32F81D61DA6000BA2DFA /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		026C33101D61DA6000BA2DFA /* LSTagButtonViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				026C33111D61DA6000BA2DFA /* LSTagButtonViewTests.m */,
+				026C33131D61DA6000BA2DFA /* Info.plist */,
+			);
+			path = LSTagButtonViewTests;
+			sourceTree = "<group>";
+		};
+		026C331B1D61DA6000BA2DFA /* LSTagButtonViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				026C331C1D61DA6000BA2DFA /* LSTagButtonViewUITests.m */,
+				026C331E1D61DA6000BA2DFA /* Info.plist */,
+			);
+			path = LSTagButtonViewUITests;
+			sourceTree = "<group>";
+		};
+		4F2E204E2C6F268C1CE037A4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				96B3ED848292B40A2F6A3C5F /* libPods-LSTagButtonView.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		66AB0CE9899B273B95BFA4F5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				68033AF062BA1CF695440A1E /* Pods-LSTagButtonView.debug.xcconfig */,
+				F574713BDC32ADD5801ADED5 /* Pods-LSTagButtonView.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		026C32F31D61DA6000BA2DFA /* LSTagButtonView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 026C33211D61DA6000BA2DFA /* Build configuration list for PBXNativeTarget "LSTagButtonView" */;
+			buildPhases = (
+				B4AE959A4B84812C27A403D6 /* Check Pods Manifest.lock */,
+				026C32F01D61DA6000BA2DFA /* Sources */,
+				026C32F11D61DA6000BA2DFA /* Frameworks */,
+				026C32F21D61DA6000BA2DFA /* Resources */,
+				9298EF9D054B45743097922C /* Embed Pods Frameworks */,
+				9650C20459CC99B599A52D3C /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LSTagButtonView;
+			productName = LSTagButtonView;
+			productReference = 026C32F41D61DA6000BA2DFA /* LSTagButtonView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		026C330C1D61DA6000BA2DFA /* LSTagButtonViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 026C33241D61DA6000BA2DFA /* Build configuration list for PBXNativeTarget "LSTagButtonViewTests" */;
+			buildPhases = (
+				026C33091D61DA6000BA2DFA /* Sources */,
+				026C330A1D61DA6000BA2DFA /* Frameworks */,
+				026C330B1D61DA6000BA2DFA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				026C330F1D61DA6000BA2DFA /* PBXTargetDependency */,
+			);
+			name = LSTagButtonViewTests;
+			productName = LSTagButtonViewTests;
+			productReference = 026C330D1D61DA6000BA2DFA /* LSTagButtonViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		026C33171D61DA6000BA2DFA /* LSTagButtonViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 026C33271D61DA6000BA2DFA /* Build configuration list for PBXNativeTarget "LSTagButtonViewUITests" */;
+			buildPhases = (
+				026C33141D61DA6000BA2DFA /* Sources */,
+				026C33151D61DA6000BA2DFA /* Frameworks */,
+				026C33161D61DA6000BA2DFA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				026C331A1D61DA6000BA2DFA /* PBXTargetDependency */,
+			);
+			name = LSTagButtonViewUITests;
+			productName = LSTagButtonViewUITests;
+			productReference = 026C33181D61DA6000BA2DFA /* LSTagButtonViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		026C32EC1D61DA6000BA2DFA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Liusui;
+				TargetAttributes = {
+					026C32F31D61DA6000BA2DFA = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					026C330C1D61DA6000BA2DFA = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 026C32F31D61DA6000BA2DFA;
+					};
+					026C33171D61DA6000BA2DFA = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 026C32F31D61DA6000BA2DFA;
+					};
+				};
+			};
+			buildConfigurationList = 026C32EF1D61DA6000BA2DFA /* Build configuration list for PBXProject "LSTagButtonView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 026C32EB1D61DA6000BA2DFA;
+			productRefGroup = 026C32F51D61DA6000BA2DFA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				026C32F31D61DA6000BA2DFA /* LSTagButtonView */,
+				026C330C1D61DA6000BA2DFA /* LSTagButtonViewTests */,
+				026C33171D61DA6000BA2DFA /* LSTagButtonViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		026C32F21D61DA6000BA2DFA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				026C33071D61DA6000BA2DFA /* LaunchScreen.storyboard in Resources */,
+				026C33041D61DA6000BA2DFA /* Assets.xcassets in Resources */,
+				026C33021D61DA6000BA2DFA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		026C330B1D61DA6000BA2DFA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		026C33161D61DA6000BA2DFA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9298EF9D054B45743097922C /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LSTagButtonView/Pods-LSTagButtonView-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9650C20459CC99B599A52D3C /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LSTagButtonView/Pods-LSTagButtonView-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B4AE959A4B84812C27A403D6 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		026C32F01D61DA6000BA2DFA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				026C332C1D61DD8400BA2DFA /* DXMTagLabelView.m in Sources */,
+				026C32FF1D61DA6000BA2DFA /* ViewController.m in Sources */,
+				026C32FC1D61DA6000BA2DFA /* AppDelegate.m in Sources */,
+				026C32F91D61DA6000BA2DFA /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		026C33091D61DA6000BA2DFA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				026C33121D61DA6000BA2DFA /* LSTagButtonViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		026C33141D61DA6000BA2DFA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				026C331D1D61DA6000BA2DFA /* LSTagButtonViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		026C330F1D61DA6000BA2DFA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 026C32F31D61DA6000BA2DFA /* LSTagButtonView */;
+			targetProxy = 026C330E1D61DA6000BA2DFA /* PBXContainerItemProxy */;
+		};
+		026C331A1D61DA6000BA2DFA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 026C32F31D61DA6000BA2DFA /* LSTagButtonView */;
+			targetProxy = 026C33191D61DA6000BA2DFA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		026C33001D61DA6000BA2DFA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				026C33011D61DA6000BA2DFA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		026C33051D61DA6000BA2DFA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				026C33061D61DA6000BA2DFA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		026C331F1D61DA6000BA2DFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		026C33201D61DA6000BA2DFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		026C33221D61DA6000BA2DFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 68033AF062BA1CF695440A1E /* Pods-LSTagButtonView.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LSTagButtonView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Liusui.LSTagButtonView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		026C33231D61DA6000BA2DFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F574713BDC32ADD5801ADED5 /* Pods-LSTagButtonView.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LSTagButtonView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Liusui.LSTagButtonView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		026C33251D61DA6000BA2DFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LSTagButtonViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Liusui.LSTagButtonViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LSTagButtonView.app/LSTagButtonView";
+			};
+			name = Debug;
+		};
+		026C33261D61DA6000BA2DFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LSTagButtonViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Liusui.LSTagButtonViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LSTagButtonView.app/LSTagButtonView";
+			};
+			name = Release;
+		};
+		026C33281D61DA6000BA2DFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LSTagButtonViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Liusui.LSTagButtonViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LSTagButtonView;
+			};
+			name = Debug;
+		};
+		026C33291D61DA6000BA2DFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LSTagButtonViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Liusui.LSTagButtonViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LSTagButtonView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		026C32EF1D61DA6000BA2DFA /* Build configuration list for PBXProject "LSTagButtonView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				026C331F1D61DA6000BA2DFA /* Debug */,
+				026C33201D61DA6000BA2DFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		026C33211D61DA6000BA2DFA /* Build configuration list for PBXNativeTarget "LSTagButtonView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				026C33221D61DA6000BA2DFA /* Debug */,
+				026C33231D61DA6000BA2DFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		026C33241D61DA6000BA2DFA /* Build configuration list for PBXNativeTarget "LSTagButtonViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				026C33251D61DA6000BA2DFA /* Debug */,
+				026C33261D61DA6000BA2DFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		026C33271D61DA6000BA2DFA /* Build configuration list for PBXNativeTarget "LSTagButtonViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				026C33281D61DA6000BA2DFA /* Debug */,
+				026C33291D61DA6000BA2DFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 026C32EC1D61DA6000BA2DFA /* Project object */;
+}
