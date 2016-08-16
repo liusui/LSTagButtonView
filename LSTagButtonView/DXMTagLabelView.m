@@ -33,8 +33,8 @@ static CGFloat const verSpcing = 20;
                                          options:NSStringDrawingUsesLineFragmentOrigin|NSStringDrawingUsesFontLeading
                                       attributes:@{NSFontAttributeName:[UIFont systemFontOfSize:17]}
                                          context:nil];
-        CGFloat yuWidth = kScreenWidth - leftMagin - recordPoint.x;
-        if (yuWidth >= rect.size.width) {
+        CGFloat restWidth = kScreenWidth - leftMagin - recordPoint.x;
+        if (restWidth >= rect.size.width) {
             btn.frame =CGRectMake(recordPoint.x, recordPoint.y, rect.size.width, buttonHeight);
         }else{
             btn.frame =CGRectMake(leftMagin, recordPoint.y + horSpcing + rect.size.height, rect.size.width, buttonHeight);
